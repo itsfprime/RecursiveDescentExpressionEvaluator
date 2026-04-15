@@ -15,8 +15,8 @@ The parser is responsible for turning the generated list of Tokens into an AST. 
 
 ## Test Cases
 
-![App Screenshot](https://ibb.co/zW3yzZTx)
-![App Screenshot](https://ibb.co/vvDbRWTG)
-![App Screenshot](https://ibb.co/R8gNTTf)
-![App Screenshot](https://ibb.co/S49Qtrht)
-![App Screenshot](https://ibb.co/hFHXWWsr)
+![App Screenshot](https://i.ibb.co/k20388Kz/test1.png)
+![App Screenshot](https://i.ibb.co/jP1VyRcy/test2.png)
+![App Screenshot](https://i.ibb.co/bt6F55T/test3.png)
+![App Screenshot](https://i.ibb.co/prng5TM8/test4.png)
+![App Screenshot](https://i.ibb.co/1YCDkTtQ/test5.png)

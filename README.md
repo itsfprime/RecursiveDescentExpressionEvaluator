@@ -3,7 +3,7 @@
 
 ## Project Authors - Jeremy Welty, Cesar Valades
 
-This project utilizes an Abstract Syntax Tree (AST) to store a mathematical expression, which is first tokenized then lexically analyzed to ensure correctness. The tree itself can be evaluated using recursive descent, linking elements in-order. 
+This project utilizes an Abstract Syntax Tree (AST) to store a mathematical expression, which is first tokenized then lexically analyzed to ensure correctness. 
 
 ## Technical Summary
 

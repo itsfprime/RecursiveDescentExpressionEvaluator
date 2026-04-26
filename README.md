@@ -13,6 +13,9 @@ The Tokenizer is a critical component of this project, it is responsible for bre
 
 The parser is responsible for turning the generated list of Tokens into an AST. To do this, we create 3 methods which call each other recursively and share an index variable. ParseE is the first level of precedence, and is responsible for parsing + and - tokens, and it calls on parseT to find its left node. ParseT is responsible for finding * and / tokens, and it calls on parseF to find its left node. ParseF is the final level of precedence here, and grabs a token by simply using the index variable i to grab from the tokens list at that index. ParseF is responsible for consuming number tokens, left parenthesis tokens, and handling unary negative cases like -4. If a token is found out of place, the chain falls apart, and an runtime exception occurs, which means an unexpected token was parsed.
 
+## ExpressionCompiler Video
+https://youtu.be/1FZ1q9kwBMg
+
 ## Test Cases
 
 ![App Screenshot](https://i.ibb.co/k20388Kz/test1.png)
